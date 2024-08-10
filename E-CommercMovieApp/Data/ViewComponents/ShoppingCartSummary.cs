@@ -1,11 +1,11 @@
-﻿using eTickets.Data.Cart;
+﻿using E_CommercMovieApp.Data.Cart;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Data.ViewComponents
+namespace E_CommercMovieApp.Data.ViewComponents
 {
     public class ShoppingCartSummary:ViewComponent
     {

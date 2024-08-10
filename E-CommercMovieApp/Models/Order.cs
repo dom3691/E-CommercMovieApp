@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Models
+namespace E_CommercMovieApp.Models
 {
     public class Order
     {

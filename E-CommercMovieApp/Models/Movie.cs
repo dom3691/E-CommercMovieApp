@@ -1,5 +1,5 @@
-﻿using eTickets.Data;
-using eTickets.Data.Base;
+﻿using E_CommercMovieApp.Data;
+using E_CommercMovieApp.Data.Base;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Models
+namespace E_CommercMovieApp.Models
 {
     public class Movie:IEntityBase
     {

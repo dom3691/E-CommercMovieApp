@@ -1,7 +1,7 @@
-﻿using eTickets.Data.Cart;
-using eTickets.Data.Services;
-using eTickets.Data.Static;
-using eTickets.Data.ViewModels;
+﻿using E_CommercMovieApp.Data.Cart;
+using E_CommercMovieApp.Data.Services;
+using E_CommercMovieApp.Data.Static;
+using E_CommercMovieApp.Data.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace eTickets.Controllers
+namespace E_CommercMovieApp.Controllers
 {
     [Authorize] 
     public class OrdersController : Controller
