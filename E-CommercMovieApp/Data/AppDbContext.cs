@@ -1,4 +1,4 @@
-﻿using eTickets.Models;
+﻿using E_CommercMovieApp.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Data
+namespace E_CommercMovieApp.Data
 {
     public class AppDbContext:IdentityDbContext<ApplicationUser>
     {

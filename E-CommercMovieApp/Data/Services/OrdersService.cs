@@ -1,11 +1,11 @@
-﻿using eTickets.Models;
+﻿using E_CommercMovieApp.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Data.Services
+namespace E_CommercMovieApp.Data.Services
 {
     public class OrdersService : IOrdersService
     {

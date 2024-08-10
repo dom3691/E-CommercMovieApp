@@ -1,10 +1,10 @@
-﻿using eTickets.Data.Cart;
+﻿using E_CommercMovieApp.Data.Cart;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Data.ViewModels
+namespace E_CommercMovieApp.Data.ViewModels
 {
     public class ShoppingCartVM
     {

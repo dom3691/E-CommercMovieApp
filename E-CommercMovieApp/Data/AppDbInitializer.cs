@@ -1,5 +1,5 @@
-﻿using eTickets.Data.Static;
-using eTickets.Models;
+﻿using E_CommercMovieApp.Data.Static;
+using E_CommercMovieApp.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Data
+namespace E_CommercMovieApp.Data
 {
     public class AppDbInitializer
     {
@@ -336,7 +336,7 @@ namespace eTickets.Data
 
                 //Users
                 var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-                string adminUserEmail = "admin@etickets.com";
+                string adminUserEmail = "admin@E_CommercMovieApp.com";
 
                 var adminUser = await userManager.FindByEmailAsync(adminUserEmail);
                 if(adminUser == null)
@@ -353,7 +353,7 @@ namespace eTickets.Data
                 }
 
 
-                string appUserEmail = "user@etickets.com";
+                string appUserEmail = "user@E_CommercMovieApp.com";
 
                 var appUser = await userManager.FindByEmailAsync(appUserEmail);
                 if (appUser == null)

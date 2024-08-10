@@ -1,4 +1,4 @@
-﻿using eTickets.Models;
+﻿using E_CommercMovieApp.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Data.Cart
+namespace E_CommercMovieApp.Data.Cart
 {
     public class ShoppingCart
     {

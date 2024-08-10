@@ -1,7 +1,7 @@
-﻿using eTickets.Data;
-using eTickets.Data.Services;
-using eTickets.Data.Static;
-using eTickets.Models;
+﻿using E_CommercMovieApp.Data;
+using E_CommercMovieApp.Data.Services;
+using E_CommercMovieApp.Data.Static;
+using E_CommercMovieApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eTickets.Controllers
+namespace E_CommercMovieApp.Controllers
 {
     [Authorize(Roles = UserRoles.Admin)]
     public class ProducersController : Controller
